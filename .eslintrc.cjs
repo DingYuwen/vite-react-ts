@@ -1,3 +1,10 @@
+/*
+ * @Author: dingyuwen ding_yuwen@163.com
+ * @Date: 2023-01-11 08:56:08
+ * @LastEditTime: 2023-01-11 09:44:54
+ * @LastEditors: dingyuwen
+ * @Description:
+ */
 module.exports = {
   env: {
     browser: true,
@@ -36,14 +43,7 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    'import',
-    'react',
-    'react-hooks',
-    'jsx-a11y',
-    'prettier',
-    '@typescript-eslint',
-  ],
+  plugins: ['import', 'react', 'react-hooks', 'jsx-a11y', 'prettier', '@typescript-eslint'],
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
@@ -52,4 +52,4 @@ module.exports = {
       typescript: {},
     },
   },
-};
+}
